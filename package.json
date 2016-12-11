@@ -1,0 +1,17 @@
+{
+  "name": "shurvey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.6.3",
+    "firebase-server": "^0.7.1"
+  },
+  "dependencies": {}
+}

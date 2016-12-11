@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shurvey</title>
+		<script src="./node_modules/firebase/firebase.js"></script>
+		<script>
+firebase.initializeApp({
+	databaseURL: 'ws://127.0.1:5000'
+});
+		</script>
+		<script src="./js/main.js"></script>
+		<style>
+li{
+	font-family:monospace;
+}
+		</style>
+	</head>
+	<body>
+		<h1>Shurvey</h1>
+
+		<input id="json" />
+		<ul id="output"></ul>
+
+		<input id="input" />
+		<button id="trigger">Add</button>
+	</body>
+</html>
